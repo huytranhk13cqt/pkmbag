@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Test UI</title>
+
+		<!---------------------- CSS ---------------------->
+		<link rel="stylesheet" href="./test.css" />
+
+		<!---------------------- Font awesome ---------------------->
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+			integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+
+		<!---------------------- CSS Boostrap ---------------------->
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+			crossorigin="anonymous"
+		/>
+	</head>
+	<body>
+		<div class="giaoDienChinh">
+			<!---------------- MENU-LEFT ---------------->
+			<div class="menu-Left">
+				<!-------- MENU-INFO -------->
+				<br />
+				<div class="menu-Info">
+					<img src="./bag.jpg" alt="bag-pokemon" />
+					<br />
+					<br />
+					<h4>
+						<b>POKEMON BAG</b>
+					</h4>
+					<p>Template by HuyTran</p>
+				</div>
+				<!-------- MENU-CONTATC -------->
+				<a href="#Poke-page"
+					><div class="contact-Item green">
+						<i class="fas fa-tools"></i>
+						<span class="text"> ITEMS </span>
+					</div></a
+				>
+				<a href="#About-me">
+					<div class="contact-Item">
+						<i class="fas fa-volleyball-ball"></i>
+						<span class="text"> POKEBALL </span>
+					</div></a
+				>
+				<a href="#form-me"
+					><div class="contact-Item">
+						<i class="fab fa-react"></i>
+						<span class="text"> TM & HM </span>
+					</div></a
+				>
+				<div class="mangXaHoi">
+					<i class="fab fa-facebook-square"></i>
+					<i class="fab fa-instagram"></i>
+					<i class="fab fa-snapchat"></i>
+					<i class="fab fa-pinterest-p"></i>
+					<i class="fab fa-twitter"></i>
+					<i class="fab fa-linkedin-in"></i>
+				</div>
+			</div>
+
+			<!---------------- BODY-RIGHT ---------------->
+			<div class="body-Right">
+				<!-------- HEADER -------->
+				<a href="#">
+					<img
+						src="https://www.w3schools.com/w3images/avatar_g2.jpg"
+						alt=""
+						style="width: 65px"
+						class="hinhtron"
+					/>
+				</a>
+				<div>
+					<span class="select"
+						><a
+							data-bs-toggle="offcanvas"
+							href="#offcanvasExample"
+							role="button"
+							aria-controls="offcanvasExample"
+						>
+							<i class="fas fa-bars"></i> </a
+					></span>
+				</div>
+
+				<div class="header" id="Poke-page">
+					<div class="header-min">
+						<br />
+						<br />
+					</div>
+					<h1>
+						<b>Poke Page</b>
+					</h1>
+					<div class="header-Filter">
+						<span>Filter:</span>
+						<button class="btn-black">ALL</button>
+						<button class="btn-fire">
+							<i class="fas fa-fire"></i>
+							Fire
+						</button>
+						<button class="btn-water">
+							<i class="fas fa-tint"></i>
+							Water
+						</button>
+						<button class="btn-lightning">
+							<i class="fas fa-bolt"></i>
+							Lightning
+						</button>
+					</div>
+				</div>
+
+				<!-------- CARD-MENU -------->
+				<div class="blockchain">
+					<div class="card-List">
+						<div class="card">
+							<img
+								src="https://www.w3schools.com/w3images/mountains.jpg"
+								class="card-img-top"
+								alt="..."
+							/>
+							<div class="card-body">
+								<p class="card-title"><b>Kanto</b></p>
+								<p class="card-text">
+									The Kanto region is a region of the Pokémon world. Kanto is located east of Johto,
+									which together form a joint landmass that is
+								</p>
+							</div>
+						</div>
+						<div class="card">
+							<img
+								src="https://www.w3schools.com/w3images/lights.jpg"
+								class="card-img-top"
+								alt="..."
+							/>
+							<div class="card-body">
+								<p class="card-title"><b>Johto</b></p>
+								<p class="card-text">
+									Johto is a region connected to the western part of Kanto. It was introduced in
+									Generation II, Pokémon Gold, Silver, and Pokémon Crystal
+								</p>
+							</div>
+						</div>
+						<div class="card">
+							<img
+								src="https://www.w3schools.com/w3images/nature.jpg"
+								class="card-img-top"
+								alt="..."
+							/>
+							<div class="card-body">
+								<p class="card-title"><b>Hoenn</b></p>
+								<p class="card-text">
+									Hoenn is a region in the Ruby, Sapphire, Emerald, Omega Ruby, and Alpha Sapphire
+									games. Hoenn is based on the island
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="blockchain2">
+					<div class="card-List">
+						<div class="card">
+							<img src="https://www.w3schools.com/w3images/p1.jpg" class="card-img-top" alt="..." />
+							<div class="card-body">
+								<p class="card-title"><b>Sinnoh</b></p>
+								<p class="card-text">
+									It is located north of Kanto, Johto, and Hoenn. ... Sinnoh is composed of the
+									large mainland, kamenrider pikachu
+								</p>
+							</div>
+						</div>
+						<div class="card">
+							<img src="https://www.w3schools.com/w3images/p2.jpg" class="card-img-top" alt="..." />
+							<div class="card-body">
+								<p class="card-title"><b>Unova</b></p>
+								<p class="card-text">
+									It is the setting of Pokémon Black and White and Pokémon Black 2 and White 2.It
+									was the fifth core series region
+								</p>
+							</div>
+						</div>
+						<div class="card">
+							<img src="https://www.w3schools.com/w3images/p3.jpg" class="card-img-top" alt="..." />
+							<div class="card-body">
+								<p class="card-title"><b>Kalos</b></p>
+								<p class="card-text">
+									is a region of the Pokémon world. It was the sixth core series region to be
+									introduced and is the setting of Pokémon X
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- NUMBER-PAGE -->
+				<div class="number-Page">
+					<div class="viTri">
+						<nav aria-label="Page navigation example">
+							<ul class="pagination">
+								<li class="page-item">
+									<a class="page-link" href="#"><i class="fas fa-angle-double-left"></i></a>
+								</li>
+								<li class="page-item" id="vitri1"><a class="page-link" href="#">1</a></li>
+								<li class="page-item"><a class="page-link" href="#">2</a></li>
+								<li class="page-item"><a class="page-link" href="#">3</a></li>
+								<li class="page-item"><a class="page-link" href="#">4</a></li>
+								<li class="page-item">
+									<a class="page-link" href="#"><i class="fas fa-angle-double-right"></i></a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+				<!-- PICTURE -->
+				<div class="picture" id="About-me">
+					<div class="picture-Item">
+						<img src="./1200.jpg" alt="" />
+					</div>
+					<div class="picture-Item">
+						<img src="./1200b.jpg" alt="" />
+					</div>
+				</div>
+				<!-- CONTENT -->
+				<div class="content">
+					<h4><b> Pokemon Description </b></h4>
+
+					<p>
+						Pokémon (an abbreviation for Pocket Monsters in Japan) is a Japanese media franchise
+						managed by The Pokémon Company, a company founded by Nintendo, Game Freak, and
+						Creatures. The franchise was created by Satoshi Tajiri in 1996, and is centered on
+						fictional creatures called "Pokémon". In Pokémon, humans, known as Pokémon Trainers,
+						catch and train Pokémon to battle other Pokémon for sport. All media works within the
+						franchise are set in the Pokémon universe. The English slogan for the franchise is
+						"Gotta Catch Em All!" There are currently 901 Pokémon species.
+					</p>
+
+					<hr />
+
+					<h4>My Favorite Pokemon</h4>
+
+					<p>Pikachu</p>
+					<div class="skill-Bar">
+						<div class="skill-Level lv1"><span>95%</span></div>
+					</div>
+
+					<p>Charizard</p>
+					<div class="skill-Bar">
+						<div class="skill-Level lv2"><span>85%</span></div>
+					</div>
+
+					<p>Bulbusauur</p>
+					<div class="skill-Bar">
+						<div class="skill-Level lv3"><span>80%</span></div>
+					</div>
+
+					<p class="down">
+						<button><i class="fas fa-download"></i> Download My List</button>
+					</p>
+
+					<hr />
+
+					<h4 class="before-member">Service Level</h4>
+
+					<div class="member-Option">
+						<div class="member-Item">
+							<ul>
+								<li class="member-Type">Basic</li>
+								<li>Pikachu</li>
+								<li>Pokeball</li>
+								<li>Bycycle</li>
+								<li>Berry</li>
+								<li class="member-Price">
+									<h2>$ 10</h2>
+									<span>per month</span>
+								</li>
+								<li class="member-Signup">
+									<!-- <button>Sign Up</button> -->
+									<a
+										href=""
+										type="button"
+										class="btn btn-primary"
+										data-bs-toggle="modal"
+										data-bs-target="#exampleModal"
+									>
+										Sign Up
+									</a>
+
+									<!-- Modal -->
+									<div
+										class="modal fade"
+										id="exampleModal"
+										tabindex="-1"
+										aria-labelledby="exampleModalLabel"
+										aria-hidden="true"
+									>
+										<div class="modal-dialog">
+											<div class="modal-content">
+												<div class="modal-header">
+													<h2 class="modal-title" id="exampleModalLabel">
+														<i class="fas fa-suitcase"></i> Tickets
+													</h2>
+													<button
+														type="button"
+														class="btn-close"
+														data-bs-dismiss="modal"
+														aria-label="Close"
+													></button>
+												</div>
+
+												<div class="modal-body">
+													<div class="modal-body-text">
+														<p><i class="fas fa-shopping-cart"></i> Tickets, $15 per person</p>
+													</div>
+													<div class="modal-body-box">
+														<input type="text" placeholder="How many?" />
+													</div>
+													<div class="modal-body-text">
+														<p><i class="fas fa-user"></i> Send To</p>
+													</div>
+													<div class="modal-body-box">
+														<input type="email" placeholder="Enter email" />
+													</div>
+													<button class="modal-body-button">
+														PAY <i class="fas fa-check"></i>
+													</button>
+												</div>
+
+												<div class="modal-footer">
+													<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+														Close
+													</button>
+													<button type="button" class="btn btn-primary">Save changes</button>
+												</div>
+											</div>
+										</div>
+									</div>
+								</li>
+							</ul>
+						</div>
+
+						<div class="member-Item">
+							<ul>
+								<li class="member-Type" id="member-Green">Pro</li>
+								<li>Bulbusaur</li>
+								<li>Greatball</li>
+								<li>Motor Bike</li>
+								<li>Strawberry</li>
+								<li class="member-Price">
+									<h2>$ 20</h2>
+									<span>per month</span>
+								</li>
+								<li class="member-Signup">
+									<a
+										href=""
+										type="button"
+										class="btn btn-primary"
+										data-bs-toggle="modal"
+										data-bs-target="#exampleModal"
+									>
+										Sign Up
+									</a>
+
+									<!-- Modal -->
+									<div
+										class="modal fade"
+										id="exampleModal"
+										tabindex="-1"
+										aria-labelledby="exampleModalLabel"
+										aria-hidden="true"
+									>
+										<div class="modal-dialog">
+											<div class="modal-content">
+												<div class="modal-header">
+													<h2 class="modal-title" id="exampleModalLabel">
+														<i class="fas fa-suitcase"></i> Tickets
+													</h2>
+													<button
+														type="button"
+														class="btn-close"
+														data-bs-dismiss="modal"
+														aria-label="Close"
+													></button>
+												</div>
+
+												<div class="modal-body">
+													<div class="modal-body-text">
+														<p><i class="fas fa-shopping-cart"></i> Tickets, $15 per person</p>
+													</div>
+													<div class="modal-body-box">
+														<input type="text" placeholder="How many?" />
+													</div>
+													<div class="modal-body-text">
+														<p><i class="fas fa-user"></i> Send To</p>
+													</div>
+													<div class="modal-body-box">
+														<input type="email" placeholder="Enter email" />
+													</div>
+													<button class="modal-body-button">
+														PAY <i class="fas fa-check"></i>
+													</button>
+												</div>
+
+												<div class="modal-footer">
+													<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+														Close
+													</button>
+													<button type="button" class="btn btn-primary">Save changes</button>
+												</div>
+											</div>
+										</div>
+									</div>
+								</li>
+							</ul>
+						</div>
+
+						<div class="member-Item">
+							<ul>
+								<li class="member-Type">Premiun</li>
+								<li>Charizard</li>
+								<li>Masterball</li>
+								<li>Car</li>
+								<li>Blackberry</li>
+								<li class="member-Price">
+									<h2>$ 50</h2>
+									<span>per month</span>
+								</li>
+								<li class="member-Signup">
+									<a
+										href=""
+										type="button"
+										class="btn btn-primary"
+										data-bs-toggle="modal"
+										data-bs-target="#exampleModal"
+									>
+										Sign Up
+									</a>
+
+									<!-- Modal -->
+									<div
+										class="modal fade"
+										id="exampleModal"
+										tabindex="-1"
+										aria-labelledby="exampleModalLabel"
+										aria-hidden="true"
+									>
+										<div class="modal-dialog">
+											<div class="modal-content">
+												<div class="modal-header">
+													<h2 class="modal-title" id="exampleModalLabel">
+														<i class="fas fa-suitcase"></i> Tickets
+													</h2>
+													<button
+														type="button"
+														class="btn-close"
+														data-bs-dismiss="modal"
+														aria-label="Close"
+													></button>
+												</div>
+
+												<div class="modal-body">
+													<div class="modal-body-text">
+														<p><i class="fas fa-shopping-cart"></i> Tickets, $15 per person</p>
+													</div>
+													<div class="modal-body-box">
+														<input type="text" placeholder="How many?" />
+													</div>
+													<div class="modal-body-text">
+														<p><i class="fas fa-user"></i> Send To</p>
+													</div>
+													<div class="modal-body-box">
+														<input type="email" placeholder="Enter email" />
+													</div>
+													<button class="modal-body-button">
+														PAY <i class="fas fa-check"></i>
+													</button>
+												</div>
+
+												<div class="modal-footer">
+													<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+														Close
+													</button>
+													<button type="button" class="btn btn-primary">Save changes</button>
+												</div>
+											</div>
+										</div>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<!-- FORM -->
+				<div class="form" id="form-me">
+					<h4>
+						<b>Contact Me</b>
+					</h4>
+
+					<div class="form-Contact">
+						<div class="form-Contact-Item">
+							<p><i class="fas fa-envelope"></i></p>
+							<p>email@email.com</p>
+						</div>
+						<div class="form-Contact-Item Item-green">
+							<p><i class="fas fa-map-marker-alt"></i></p>
+							<p>Chicago, US</p>
+						</div>
+						<div class="form-Contact-Item">
+							<p><i class="fas fa-phone-alt"></i></p>
+							<p>512312311</p>
+						</div>
+					</div>
+
+					<hr class="opacity-hr" />
+
+					<div class="form-form">
+						<p>Name</p>
+						<input type="text" name="Name" class="ipText" />
+					</div>
+					<div class="form-form">
+						<p>Email</p>
+						<input type="text" name="Name" class="ipText" />
+					</div>
+					<div class="form-form">
+						<p>Message</p>
+						<input type="text" name="Name" class="ipText" />
+					</div>
+
+					<button class="send"><i class="fas fa-paper-plane"></i> Send Message</button>
+				</div>
+				<!-- FOOTER -->
+				<div class="footer">
+					<div class="footer-Item">
+						<h3>FOOTER</h3>
+						<p>
+							Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus
+							vitae, ultricies congue gravida diam non fringilla.
+						</p>
+						<p>
+							Powered by
+							<a href="https://www.w3schools.com/w3css/default.asp" style="color: white">w3.css</a>
+						</p>
+					</div>
+
+					<div class="footer-Item">
+						<h3>BLOG POSTS</h3>
+
+						<ul class="blogpost-picture">
+							<li class="blogpost-item whitebar">
+								<img src="./pixlr-bg-result.png" alt="" />
+								<span style="font-size: 16px">Charizard</span>
+								<br />
+								<span>Fire Pokemon</span>
+							</li>
+
+							<li class="blogpost-item">
+								<img src="./pikachuu.png.png" alt="" />
+								<span style="font-size: 16px">Pikachu</span>
+								<br />
+								<span>Lightning Pokemon</span>
+							</li>
+						</ul>
+					</div>
+
+					<div class="footer-Item">
+						<h3>POPULAR TAGS</h3>
+						<p class="location">
+							<span id="location-black"> Travel </span>
+							<span>New York</span>
+							<span>London</span>
+							<span>IKEA</span>
+							<span>NORWAY</span>
+							<span>DIY</span>
+							<span>Ideas</span>
+							<span>Baby</span>
+							<span>Family</span>
+							<span>News</span>
+							<span>Clothing</span>
+							<span>Shopping</span>
+							<span>Sports</span>
+							<span>Games</span>
+						</p>
+					</div>
+				</div>
+				<!-- END-PAGE -->
+				<div class="end-Page">
+					<p>
+						Powered by
+						<a href="https://www.w3schools.com/w3css/default.asp" style="color: white">w3.css</a>
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<!-- OFF CANVAS -->
+		<div
+			class="offcanvas offcanvas-start"
+			tabindex="-1"
+			id="offcanvasExample"
+			aria-labelledby="offcanvasExampleLabel"
+		>
+			<div class="offcanvas-body">
+				<!-------- menu-Info -------->
+				<br />
+				<div class="canvasdiv">
+					<div class="canvasbutton">
+						<button type="button" data-bs-dismiss="offcanvas" aria-label="Close">X</button>
+					</div>
+
+					<div class="menu-Info">
+						<img src="./bag.jpg" alt="bag-pokemon" />
+						<br />
+						<br />
+						<h4>
+							<b>POKEMON BAG</b>
+						</h4>
+						<p>Template by HuyTran</p>
+					</div>
+				</div>
+
+				<!-------- MENU-CONTATCT -------->
+				<a href="#Poke-page"
+					><div class="contact-Item green">
+						<i class="fas fa-tools"></i>
+						<span class="text"> ITEMS </span>
+					</div></a
+				>
+				<a href="#About-me">
+					<div class="contact-Item">
+						<i class="fas fa-volleyball-ball"></i>
+						<span class="text"> POKEBALL </span>
+					</div></a
+				>
+				<a href="#form-me"
+					><div class="contact-Item">
+						<i class="fab fa-react"></i>
+						<span class="text"> TM & HM </span>
+					</div></a
+				>
+				<div class="mangXaHoi">
+					<i class="fab fa-facebook-square"></i>
+					<i class="fab fa-instagram"></i>
+					<i class="fab fa-snapchat"></i>
+					<i class="fab fa-pinterest-p"></i>
+					<i class="fab fa-twitter"></i>
+					<i class="fab fa-linkedin-in"></i>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script
+		src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+		crossorigin="anonymous"
+	></script>
+	<!-- <div class="show fade offcanvas-backdrop"></div> -->
+</html>
